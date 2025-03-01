@@ -1,10 +1,16 @@
-﻿namespace EFCore_Session_2_Assignment
+﻿using Microsoft.Identity.Client;
+
+namespace EFCore_Session_2_Assignment
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            using (ITIDbContext iti = new ITIDbContext())
+            {
+                
+
+            }
         }
     }
 }
